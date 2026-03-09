@@ -130,6 +130,41 @@
 {{ end }}
 {{ end }}
 
+<!-- Newsletter Section -->
+{{ with $data.newsletter }}
+{{ if .enable }}
+<section class="newsletter-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p class="section-label">{{ .label }}</p>
+        <h2 class="section-title">{{ .title | safeHTML }}</h2>
+        <p class="mb-4">{{ .description }}</p>
+        
+        <form action="https://buttondown.email/api/emails/embed-subscribe/{{ .buttondown_username }}" 
+              method="post" 
+              target="_blank" 
+              class="newsletter-form">
+          <div class="input-group">
+            <input type="email" 
+                   name="email" 
+                   placeholder="{{ .placeholder }}" 
+                   required 
+                   class="form-control newsletter-input">
+            <button type="submit" class="btn btn-primary newsletter-btn">{{ .button_text }}</button>
+          </div>
+          <input type="hidden" value="1" name="embed"/>
+          <p class="newsletter-privacy mt-3">
+            <small>We respect your privacy. Unsubscribe anytime.</small>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
 <!-- Contact Section -->
 {{ with $data.contact }}
 {{ if .enable }}
@@ -169,12 +204,34 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4 mb-4 mb-md-0">
         <h3>{{ site.Title }}</h3>
         <p>{{ site.Params.description }}</p>
       </div>
-      <div class="col-md-6 text-md-end">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h4>Newsletter</h4>
+        <p class="mb-3">Weekly cheese picks & shop updates</p>
+        <form action="https://buttondown.email/api/emails/embed-subscribe/iconoclast" 
+              method="post" 
+              target="_blank" 
+              class="footer-newsletter">
+          <div class="input-group input-group-sm">
+            <input type="email" 
+                   name="email" 
+                   placeholder="Your email" 
+                   required 
+                   class="form-control">
+            <button type="submit" class="btn btn-secondary btn-sm">Subscribe</button>
+          </div>
+          <input type="hidden" value="1" name="embed"/>
+        </form>
+      </div>
+      <div class="col-md-4 text-md-end">
         <p class="mb-0">&copy; {{ now.Year }} {{ site.Title }}. All rights reserved.</p>
+        <p class="mt-2">
+          <a href="https://instagram.com/{{ site.Params.contact.instagram }}">Instagram</a> • 
+          <a href="mailto:{{ site.Params.contact.email }}">Email</a>
+        </p>
       </div>
     </div>
   </div>

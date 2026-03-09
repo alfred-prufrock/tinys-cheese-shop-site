@@ -87,6 +87,16 @@ gallery:
     - "images/customer-service.jpg"
     - "images/product-close-up.jpg"
 
+################### Newsletter ################
+newsletter:
+  enable: true
+  label: "STAY CONNECTED"
+  title: "Join Our <span class='text-accent'>Newsletter</span>"
+  description: "Get weekly cheese picks, pairing tips, and shop updates delivered to your inbox."
+  buttondown_username: "iconoclast"
+  placeholder: "Enter your email"
+  button_text: "Subscribe"
+
 ################### Contact ################
 contact:
   enable: true

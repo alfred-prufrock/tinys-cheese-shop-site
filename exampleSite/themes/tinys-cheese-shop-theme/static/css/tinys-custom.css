@@ -239,6 +239,47 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
+/* Newsletter Section */
+.newsletter-section {
+  padding: 5rem 0;
+  background-color: var(--color-light);
+}
+
+.newsletter-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-form .input-group {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.newsletter-input {
+  border: none;
+  padding: 16px 20px;
+  font-size: 1rem;
+  background-color: var(--color-white);
+}
+
+.newsletter-input:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid var(--color-accent);
+}
+
+.newsletter-btn {
+  padding: 16px 32px;
+  border: none;
+  white-space: nowrap;
+}
+
+.newsletter-privacy {
+  color: var(--color-dark);
+  opacity: 0.7;
+}
+
 /* Contact Section */
 .contact-section {
   padding: 5rem 0;
@@ -273,6 +314,11 @@ footer {
   padding: 3rem 0 1rem;
 }
 
+footer h3, footer h4 {
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
 footer a {
   color: var(--color-accent);
   text-decoration: none;
@@ -280,6 +326,31 @@ footer a {
 
 footer a:hover {
   color: #B8900F;
+}
+
+.footer-newsletter {
+  max-width: 350px;
+}
+
+.footer-newsletter .form-control {
+  background-color: rgba(255,255,255,0.9);
+  border: none;
+}
+
+.footer-newsletter .form-control:focus {
+  background-color: var(--color-white);
+  box-shadow: none;
+}
+
+.footer-newsletter .btn-secondary {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-dark);
+}
+
+.footer-newsletter .btn-secondary:hover {
+  background-color: #B8900F;
+  border-color: #B8900F;
 }
 
 /* Mobile Responsive */
