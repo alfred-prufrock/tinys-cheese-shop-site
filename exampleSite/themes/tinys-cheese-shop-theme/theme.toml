@@ -1,0 +1,12 @@
+name = "Tiny's Cheese Shop Theme"
+license = "MIT"
+licenselink = "https://github.com/alfred-prufrock/tinys-cheese-shop-site/blob/main/LICENSE"
+description = "Custom Hugo theme for Tiny's Cheese Shop"
+homepage = "https://www.tinyscheeseshop.com/"
+tags = ["cheese", "artisan", "ecommerce", "restaurant"]
+features = ["responsive", "clean", "modern"]
+min_version = "0.87.0"
+
+[author]
+  name = "Tiny's Cheese Shop"
+  homepage = "https://www.tinyscheeseshop.com/"
