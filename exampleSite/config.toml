@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-ca"
 title = "Tiny's Cheese Shop"
-theme = "tinys-theme"
+theme = "tinys-cheese-shop-theme"
 
 [params]
 description = "Edmonton's neighbourhood cheese shop specializing in Canadian and European cheeses"
