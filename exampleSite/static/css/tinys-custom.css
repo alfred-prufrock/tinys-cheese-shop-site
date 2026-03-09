@@ -3,15 +3,17 @@
 :root {
   --color-primary: #1A5F7A;     /* Teal blue */
   --color-accent: #D4A017;      /* Gold */
-  --color-dark: #2C3E50;        /* Dark text */
-  --color-light: #ECF0F1;       /* Light background */
+  --color-dark: #0D1B2A;        /* Very dark blue (background) */
+  --color-medium: #1B263B;      /* Medium dark blue (cards) */
+  --color-light: #ECF0F1;       /* Light text */
   --color-white: #FFFFFF;
 }
 
 /* Typography */
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  color: var(--color-dark);
+  color: var(--color-light);
+  background-color: var(--color-dark);
   line-height: 1.7;
 }
 
@@ -29,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(26, 95, 122, 0.85);
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .hero-content {
@@ -61,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 3px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+               -1px -1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero .tagline {
@@ -68,12 +72,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-accent);
   font-weight: 600;
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8),
+               -1px -1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .hero .subtitle {
   font-size: 1.2rem;
   color: var(--color-white);
   margin-bottom: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Buttons */
@@ -132,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 /* About Section */
 .about-section {
   padding: 5rem 0;
-  background-color: var(--color-white);
+  background-color: var(--color-medium);
 }
 
 .about-image {
@@ -149,21 +156,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Featured Cheeses */
 .featured-cheeses {
   padding: 5rem 0;
-  background-color: var(--color-light);
+  background-color: var(--color-dark);
 }
 
 .cheese-card {
-  background: var(--color-white);
+  background: var(--color-medium);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 2rem;
+  border: 1px solid rgba(26, 95, 122, 0.2);
 }
 
 .cheese-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 24px rgba(26, 95, 122, 0.3);
+  border-color: var(--color-primary);
 }
 
 .cheese-card img {
@@ -185,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Shop Info Features */
 .shop-features {
   padding: 5rem 0;
-  background-color: var(--color-white);
+  background-color: var(--color-medium);
 }
 
 .feature-box {
@@ -212,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery */
 .gallery-section {
   padding: 5rem 0;
-  background-color: var(--color-light);
+  background-color: var(--color-dark);
 }
 
 .gallery-grid {
@@ -242,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Newsletter Section */
 .newsletter-section {
   padding: 5rem 0;
-  background-color: var(--color-light);
+  background-color: var(--color-medium);
 }
 
 .newsletter-form {
@@ -257,16 +266,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .newsletter-input {
-  border: none;
+  border: 1px solid rgba(26, 95, 122, 0.3);
   padding: 16px 20px;
   font-size: 1rem;
-  background-color: var(--color-white);
+  background-color: var(--color-dark);
+  color: var(--color-light);
 }
 
 .newsletter-input:focus {
   outline: none;
   box-shadow: none;
-  border: 2px solid var(--color-accent);
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-medium);
+}
+
+.newsletter-input::placeholder {
+  color: rgba(236, 240, 241, 0.5);
 }
 
 .newsletter-btn {
@@ -276,20 +291,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .newsletter-privacy {
-  color: var(--color-dark);
+  color: var(--color-light);
   opacity: 0.7;
 }
 
 /* Contact Section */
 .contact-section {
   padding: 5rem 0;
-  background-color: var(--color-white);
+  background-color: var(--color-dark);
 }
 
 .contact-info {
   padding: 2rem;
-  background-color: var(--color-light);
+  background-color: var(--color-medium);
   border-radius: 8px;
+  border: 1px solid rgba(26, 95, 122, 0.2);
 }
 
 .contact-info h4 {
@@ -305,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-info a:hover {
   text-decoration: underline;
+  color: #FFCC00;
 }
 
 /* Footer */
@@ -333,12 +350,18 @@ footer a:hover {
 }
 
 .footer-newsletter .form-control {
-  background-color: rgba(255,255,255,0.9);
-  border: none;
+  background-color: var(--color-dark);
+  border: 1px solid rgba(26, 95, 122, 0.3);
+  color: var(--color-light);
+}
+
+.footer-newsletter .form-control::placeholder {
+  color: rgba(236, 240, 241, 0.5);
 }
 
 .footer-newsletter .form-control:focus {
-  background-color: var(--color-white);
+  background-color: var(--color-medium);
+  border-color: var(--color-primary);
   box-shadow: none;
 }
 

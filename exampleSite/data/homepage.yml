@@ -6,7 +6,7 @@ hero_area:
   tagline: "Little shop. Big cheese."
   subtitle: "Your neighbourhood destination for Canadian & European artisan cheeses"
   button_label: "Order Online"
-  button_link: "https://www.toasttab.com/tinyscheeseshop"
+  button_link: "https://order.toasttab.com/online/tinys-cheese-shop-103-12017-102-avenue-northwest"
   overlay: true
 
 ################ About #######################
@@ -71,7 +71,7 @@ order_cta:
   title: "Ready to Order?"
   description: "Browse our selection online and order for pickup. Fresh cheese, ready when you are."
   button_label: "Order Online"
-  button_link: "https://www.toasttab.com/tinyscheeseshop"
+  button_link: "https://order.toasttab.com/online/tinys-cheese-shop-103-12017-102-avenue-northwest"
   overlay: true
 
 ################### Gallery ###################
@@ -111,4 +111,4 @@ contact:
   phone: "(780) 555-0123"
   email: "hello@tinyscheeseshop.com"
   instagram: "@tinyscheeseshop"
-  map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.123456789!2d-113.123456!3d53.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDA3JzI0LjQiTiAxMTPCsDA3JzI0LjQiVw!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca"
+  map_embed: ""
