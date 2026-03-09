@@ -133,7 +133,11 @@ h1, h2, h3, h4, h5, h6 {
 .section-title {
   font-size: 2.5rem;
   color: var(--color-primary);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-section .section-title {
+  margin-bottom: 0.5rem;
 }
 
 /* About Section */
@@ -297,12 +301,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Contact Section */
 .contact-section {
-  padding: 3rem 0;
+  padding: 2rem 0;
   background-color: var(--color-dark);
 }
 
 .contact-info {
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: var(--color-medium);
   border-radius: 8px;
   border: 1px solid rgba(26, 95, 122, 0.2);
