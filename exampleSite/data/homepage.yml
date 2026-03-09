@@ -1,7 +1,7 @@
 ################## Hero area ##################
 hero_area:
   enable: true
-  bg_image: "images/hero-cheese-counter.jpg"
+  bg_image: "images/hero-main.jpg"
   title: "Tiny's Cheese Shop"
   tagline: "Little shop. Big cheese."
   subtitle: "Your neighbourhood destination for Canadian & European artisan cheeses"
