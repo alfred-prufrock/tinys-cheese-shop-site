@@ -16,7 +16,7 @@ about:
   image: "images/cheese-aged-blocks.jpg"
   title: "Where Cheese Meets <span class='text-accent'>Community</span>"
   description_paragraphs:
-    - "Tiny's opened in September 2025 in the heart of Edmonton's Oliver neighbourhood with a simple mission: bring exceptional cheese to our community. We specialize in Canadian and European artisan cheeses, carefully selected for quality, flavour, and story."
+    - "Tiny's opened in September 2025 in the heart of Edmonton's Wîhkwêntôwin neighbourhood with a simple mission: bring exceptional cheese to our community. We specialize in Canadian and European artisan cheeses, carefully selected for quality, flavour, and story."
     - "Our shop may be small, but our selection is thoughtfully curated. Every cheese on our shelves has been tasted, vetted, and chosen because it represents something special—whether that's a traditional Alpine cheesemaking technique, a Canadian creamery pushing boundaries, or simply a crowd-pleaser that never gets old."
     - "We believe cheese should be approachable, not intimidating. Come browse, ask questions, taste samples, and discover your new favourites. We're here to help you find the perfect cheese for your dinner party, gift basket, or Tuesday night snack."
   button_label: "Visit Us"
@@ -45,7 +45,7 @@ featured_cheeses:
 shop_info:
   enable: true
   label: "VISIT US"
-  title: "Edmonton's Oliver <span class='text-accent'>Neighbourhood</span>"
+  title: "Edmonton's Wîhkwêntôwin <span class='text-accent'>Neighbourhood</span>"
   description: "Located in the Exchange II Building, steps from Jasper Avenue. Browse in-store or order online for pickup."
   features:
     - icon: "fa fa-cheese"
@@ -101,7 +101,7 @@ newsletter:
 contact:
   enable: true
   title: "Visit <span class='text-accent'>Us</span>"
-  subtitle: "Exchange II Building, Oliver District"
+  subtitle: "Exchange II Building, Wîhkwêntôwin"
   hours_title: "Hours"
   hours:
     - "Tuesday - Saturday: 11:00 AM - 7:00 PM"

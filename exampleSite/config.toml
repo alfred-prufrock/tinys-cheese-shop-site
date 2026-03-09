@@ -7,12 +7,12 @@ theme = "tinys-cheese-shop-theme"
 description = "Edmonton's neighbourhood cheese shop specializing in Canadian and European cheeses"
 author = "Tiny's Cheese Shop"
 
-# Brand Colors
+# Brand Colors (Official Pantone)
 [params.colors]
-primary = "#1A5F7A"      # Teal blue
-accent = "#D4A017"        # Gold
-background = "#FFFFFF"
-text = "#2C3E50"
+primary = "#003865"      # Pantone 7692 C (Blue)
+accent = "#FFC845"       # Pantone 1225 C (Yellow)
+background = "#001829"
+text = "#ECF0F1"
 
 # Contact Info
 [params.contact]
@@ -27,4 +27,4 @@ toast_url = "https://order.toasttab.com/online/tinys-cheese-shop-103-12017-102-a
 
 # SEO
 [params.seo]
-keywords = "cheese shop Edmonton, artisan cheese, Canadian cheese, European cheese, Oliver Edmonton"
+keywords = "cheese shop Edmonton, artisan cheese, Canadian cheese, European cheese, Wîhkwêntôwin Edmonton"
