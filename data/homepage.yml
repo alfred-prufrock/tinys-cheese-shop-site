@@ -1,0 +1,104 @@
+################## Hero area ##################
+hero_area:
+  enable: true
+  bg_image: "images/hero-cheese-counter.jpg"
+  title: "Tiny's Cheese Shop"
+  tagline: "Little shop. Big cheese."
+  subtitle: "Your neighbourhood destination for Canadian & European artisan cheeses"
+  button_label: "Order Online"
+  button_link: "https://www.toasttab.com/tinyscheeseshop"
+  overlay: true
+
+################ About #######################
+about:
+  enable: true
+  label: "OUR STORY"
+  image: "images/cheese-aged-blocks.jpg"
+  title: "Where Cheese Meets <span class='text-accent'>Community</span>"
+  description_paragraphs:
+    - "Tiny's opened in September 2025 in the heart of Edmonton's Oliver neighbourhood with a simple mission: bring exceptional cheese to our community. We specialize in Canadian and European artisan cheeses, carefully selected for quality, flavour, and story."
+    - "Our shop may be small, but our selection is thoughtfully curated. Every cheese on our shelves has been tasted, vetted, and chosen because it represents something special—whether that's a traditional Alpine cheesemaking technique, a Canadian creamery pushing boundaries, or simply a crowd-pleaser that never gets old."
+    - "We believe cheese should be approachable, not intimidating. Come browse, ask questions, taste samples, and discover your new favourites. We're here to help you find the perfect cheese for your dinner party, gift basket, or Tuesday night snack."
+  button_label: "Visit Us"
+  button_link: "#contact"
+
+################# Featured Cheeses ################
+featured_cheeses:
+  enable: true
+  label: "WHAT WE OFFER"
+  title: "Canadian & European <span class='text-accent'>Artisan Cheeses</span>"
+  description: "From aged cheddars to creamy bries, washed rinds to Alpine styles—we carry cheeses that tell a story."
+  categories:
+    - title: "Canadian Artisan"
+      image: "images/canadian-cheese.jpg"
+      description: "Celebrating Canada's incredible cheesemaking renaissance. From Quebec's traditional varieties to B.C.'s innovative creameries, we showcase the best of Canadian cheese."
+      
+    - title: "European Classics"
+      image: "images/european-cheese.jpg"
+      description: "Time-honoured cheeses from France, Italy, Switzerland, and beyond. Authentic imports that honour centuries of cheesemaking tradition."
+      
+    - title: "Pairings & Accompaniments"
+      image: "images/bread-wine-pairings.jpg"
+      description: "Artisan bread, craft wines, preserves, and charcuterie to complete your cheese experience. Everything you need for the perfect board."
+
+################# Shop Info ################
+shop_info:
+  enable: true
+  label: "VISIT US"
+  title: "Edmonton's Oliver <span class='text-accent'>Neighbourhood</span>"
+  description: "Located in the Exchange II Building, steps from Jasper Avenue. Browse in-store or order online for pickup."
+  features:
+    - icon: "fa fa-cheese"
+      title: "Curated Selection"
+      description: "Every cheese personally selected and tasted"
+      
+    - icon: "fa fa-users"
+      title: "Expert Guidance"
+      description: "Ask questions, taste samples, discover favourites"
+      
+    - icon: "fa fa-shopping-bag"
+      title: "Order for Pickup"
+      description: "Browse online, order ahead, pick up in-store"
+      
+    - icon: "fa fa-gift"
+      title: "Gift Baskets"
+      description: "Custom cheese boards and gift selections"
+
+############### Order CTA ################
+order_cta:
+  enable: true
+  bg_image: "images/shop-interior.jpg"
+  title: "Ready to Order?"
+  description: "Browse our selection online and order for pickup. Fresh cheese, ready when you are."
+  button_label: "Order Online"
+  button_link: "https://www.toasttab.com/tinyscheeseshop"
+  overlay: true
+
+################### Gallery ###################
+gallery:
+  enable: true
+  label: "THE SHOP"
+  title: "Inside <span class='text-accent'>Tiny's</span>"
+  images:
+    - "images/2025-09-25_18-58-40_UTC.jpg"
+    - "images/2025-10-10_17-14-48_UTC.jpg"
+    - "images/shop-counter.jpg"
+    - "images/cheese-display.jpg"
+    - "images/customer-service.jpg"
+    - "images/product-close-up.jpg"
+
+################### Contact ################
+contact:
+  enable: true
+  title: "Visit <span class='text-accent'>Us</span>"
+  subtitle: "Exchange II Building, Oliver District"
+  hours_title: "Hours"
+  hours:
+    - "Tuesday - Saturday: 11:00 AM - 7:00 PM"
+    - "Sunday: 12:00 PM - 5:00 PM"
+    - "Monday: Closed"
+  address: "12017 102 Ave NW, Edmonton, AB T5K 0R8"
+  phone: "(780) 555-0123"
+  email: "hello@tinyscheeseshop.com"
+  instagram: "@tinyscheeseshop"
+  map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.123456789!2d-113.123456!3d53.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDA3JzI0LjQiTiAxMTPCsDA3JzI0LjQiVw!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca"

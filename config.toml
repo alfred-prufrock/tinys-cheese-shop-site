@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "en-ca"
+title = "Tiny's Cheese Shop"
+theme = "tinys-theme"
+
+[params]
+description = "Edmonton's neighbourhood cheese shop specializing in Canadian and European cheeses"
+author = "Tiny's Cheese Shop"
+
+# Brand Colors
+[params.colors]
+primary = "#1A5F7A"      # Teal blue
+accent = "#D4A017"        # Gold
+background = "#FFFFFF"
+text = "#2C3E50"
+
+# Contact Info
+[params.contact]
+address = "12017 102 Ave NW, Edmonton, AB T5K 0R8"
+phone = "(780) 555-0123"
+email = "hello@tinyscheeseshop.com"
+instagram = "tinyscheeseshop"
+
+# Toast Ordering
+[params.ordering]
+toast_url = "https://www.toasttab.com/tinyscheeseshop"
+
+# SEO
+[params.seo]
+keywords = "cheese shop Edmonton, artisan cheese, Canadian cheese, European cheese, Oliver Edmonton"
