@@ -16,9 +16,8 @@ about:
   image: "images/cheese-aged-blocks.jpg"
   title: "Where Cheese Meets <span class='text-accent'>Community</span>"
   description_paragraphs:
-    - "Tiny's opened in September 2025 in the heart of Edmonton's Wîhkwêntôwin neighbourhood with a simple mission: bring exceptional cheese to our community. We specialize in Canadian and European artisan cheeses, carefully selected for quality, flavour, and story."
-    - "Our shop may be small, but our selection is thoughtfully curated. Every cheese on our shelves has been tasted, vetted, and chosen because it represents something special—whether that's a traditional Alpine cheesemaking technique, a Canadian creamery pushing boundaries, or simply a crowd-pleaser that never gets old."
-    - "We believe cheese should be approachable, not intimidating. Come browse, ask questions, taste samples, and discover your new favourites. We're here to help you find the perfect cheese for your dinner party, gift basket, or Tuesday night snack."
+    - "Tiny's opened in September 2025 in the heart of Edmonton's Wîhkwêntôwin neighbourhood with a simple mission: bring exceptional cheese to our community. We specialize in Canadian and European artisan cheeses—every one personally selected, tasted, and chosen for quality, flavour, and story."
+    - "We believe cheese should be approachable, not intimidating. Come browse, ask questions, taste samples, and discover your new favourites. Whether you're planning a dinner party, building a custom gift basket, or ordering online for pickup, we're here to help you find the perfect cheese."
   button_label: "Visit Us"
   button_link: "#contact"
 
@@ -43,31 +42,12 @@ featured_cheeses:
 
 ################# Shop Info ################
 shop_info:
-  enable: true
-  label: "VISIT US"
-  title: "Edmonton's Wîhkwêntôwin <span class='text-accent'>Neighbourhood</span>"
-  description: "Located in the Exchange II Building, steps from Jasper Avenue. Browse in-store or order online for pickup."
-  features:
-    - icon: "fa fa-cheese"
-      title: "Curated Selection"
-      description: "Every cheese personally selected and tasted"
-      
-    - icon: "fa fa-users"
-      title: "Expert Guidance"
-      description: "Ask questions, taste samples, discover favourites"
-      
-    - icon: "fa fa-shopping-bag"
-      title: "Order for Pickup"
-      description: "Browse online, order ahead, pick up in-store"
-      
-    - icon: "fa fa-gift"
-      title: "Gift Baskets"
-      description: "Custom cheese boards and gift selections"
+  enable: false
 
 ############### Order CTA ################
 order_cta:
   enable: true
-  bg_image: "images/shop-interior.jpg"
+  bg_image: "images/toast-banner.jpg"
   title: "Ready to Order?"
   description: "Browse our selection online and order for pickup. Fresh cheese, ready when you are."
   button_label: "Order Online"
