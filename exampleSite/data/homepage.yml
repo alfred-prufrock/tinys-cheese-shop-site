@@ -1,7 +1,7 @@
 ################## Hero area ##################
 hero_area:
   enable: true
-  bg_image: "images/hero-main.jpg"
+  bg_image: "images/hero-avonlea-cheddar.jpg"
   title: "Tiny's Cheese Shop"
   tagline: "Little shop. Big cheese."
   subtitle: "Your neighbourhood destination for Canadian & European artisan cheeses"
@@ -13,7 +13,7 @@ hero_area:
 about:
   enable: true
   label: "OUR STORY"
-  image: "images/cheese-aged-blocks.jpg"
+  image: "images/about-avonlea-tag.jpg"
   title: "Where Cheese Meets <span class='text-accent'>Community</span>"
   description_paragraphs:
     - "Tiny's opened in September 2025 in the heart of Edmonton's Wîhkwêntôwin neighbourhood with a simple mission: bring exceptional cheese to our community. We specialize in Canadian and European artisan cheeses—every one personally selected, tasted, and chosen for quality, flavour, and story."
@@ -29,11 +29,11 @@ featured_cheeses:
   description: "From aged cheddars to creamy bries, washed rinds to Alpine styles—we carry cheeses that tell a story."
   categories:
     - title: "Canadian Artisan"
-      image: "images/canadian-cheese.jpg"
+      image: "images/featured-canadian-cheese.jpg"
       description: "Celebrating Canada's incredible cheesemaking renaissance. From Quebec's traditional varieties to B.C.'s innovative creameries, we showcase the best of Canadian cheese."
       
     - title: "European Classics"
-      image: "images/european-cheese.jpg"
+      image: "images/featured-european-cheese.jpg"
       description: "Time-honoured cheeses from France, Italy, Switzerland, and beyond. Authentic imports that honour centuries of cheesemaking tradition."
       
     - title: "Pairings & Accompaniments"
@@ -60,12 +60,12 @@ gallery:
   label: "THE SHOP"
   title: "Inside <span class='text-accent'>Tiny's</span>"
   images:
-    - "images/2025-09-25_18-58-40_UTC.jpg"
-    - "images/2025-10-10_17-14-48_UTC.jpg"
-    - "images/gallery-1.jpg"
-    - "images/gallery-2.jpg"
-    - "images/gallery-3.jpg"
-    - "images/gallery-4.jpg"
+    - "images/gallery-counter-logo.jpg"
+    - "images/gallery-aged-cheese.jpg"
+    - "images/gallery-cheddar-blocks.jpg"
+    - "images/gallery-goat-cheese.jpg"
+    - "images/gallery-washed-rind.jpg"
+    - "images/gallery-soft-cheese.jpg"
 
 ################### Newsletter ################
 newsletter:
